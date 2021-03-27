@@ -1,0 +1,20 @@
+{
+  "name": "petition-io",
+  "version": "1.0.0",
+  "description": "Build for democracy",
+  "main": "src/index.ts",
+  "repository": "https://github.com/sandipndev/petition-io",
+  "author": "Sandipan, Pratyay, Saif, Pratyay",
+  "license": "MIT",
+  "scripts": {
+    "serve": "ts-node src/index.ts",
+    "build": "tsc",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}
